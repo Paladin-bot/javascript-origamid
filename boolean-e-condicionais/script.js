@@ -1,3 +1,4 @@
+
 // Verifique se a sua idade é maior do que a de algum parente
 // Dependendo do resultado coloque no console 'É maior', 'É igual' ou 'É menor'
 
@@ -10,11 +11,7 @@ var idade = 28;
 var possuiDoutorado = false;
 var empregoFuturo;
 var dinheiroNaConta = 0;
-console.log(nome && true);
-console.log(idade && true);
-console.log(possuiDoutorado && true);
-console.log(empregoFuturo && true);
-console.log(dinheiroNaConta && true);
+console.log(!!nome, !!idade, !!possuiDoutorado, !!empregoFuturo, !!dinheiroNaConta);
 
 // Compare o total de habitantes do Brasil com China (valor em milhões)
 var brasil = 207;
